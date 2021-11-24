@@ -2,13 +2,13 @@
 
 namespace Anhskohbo\NoCaptcha;
 
-use Symfony\Component\HttpFoundation\Request;
 use GuzzleHttp\Client;
+use Symfony\Component\HttpFoundation\Request;
 
 class NoCaptcha
 {
-    const CLIENT_API = 'https://www.google.com/recaptcha/api.js';
-    const VERIFY_URL = 'https://www.google.com/recaptcha/api/siteverify';
+    const CLIENT_API = 'https://www.recaptcha.net/api.js';
+    const VERIFY_URL = 'https://www.recaptcha.net/api/siteverify';
 
     /**
      * The recaptcha secret key.
